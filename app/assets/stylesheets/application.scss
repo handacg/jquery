@@ -8,7 +8,6 @@
 
 .title{
 	text-align: center;
-	justify-content: center;
 }
 
 button {
@@ -27,4 +26,39 @@ button {
 
 ul {
  list-style: none;
+}
+
+#carrousel{
+    position:relative;
+    height:400px;
+    width:600px;
+    margin:40px auto;
+    padding: 20px
+
+
+}
+
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
+
+.prev{
+	position:absolute;
+	z-index: 1;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	color: white;
+
+}
+
+.next{
+	position:absolute;
+	z-index: 1;
+	margin-top: 10px;
+	margin-right: 0px;
+	color: white;
+
 }
