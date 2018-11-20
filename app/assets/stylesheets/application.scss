@@ -5,3 +5,26 @@
 @import "font-awesome";
 @import "components/*";
 
+
+.title{
+	text-align: center;
+	justify-content: center;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+ul {
+ list-style: none;
+}

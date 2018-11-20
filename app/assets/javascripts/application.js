@@ -14,3 +14,49 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+
+
+// tabs 
+ $(document).ready(function() {
+ 	// show the first tab
+ 	$(".tab").eq(0).show();
+ 	$(".tab").eq(1).hide();
+ 	$(".tab").eq(2).hide();
+
+
+    $(".title button").eq(0).click(function(){
+    	$(".tab").eq(0).show();
+    	$(".tab").eq(1).hide();
+ 		$(".tab").eq(2).hide();
+
+    })
+
+    $(".title button").eq(1).click(function(){
+    	$(".tab").eq(0).hide();
+    	$(".tab").eq(1).show();
+ 		$(".tab").eq(2).hide();
+    })
+
+     $(".title button").eq(2).click(function(){
+    	$(".tab").eq(0).hide();
+    	$(".tab").eq(1).hide();
+ 		$(".tab").eq(2).show();
+    })
+ });
+
+
+$(document).ready(function(){
+	$(".dropdown li").hide();
+
+	$(".rounded-circle").click(function()
+		$(".dropdown li")).show();
+
+ });
+
+
+
+
+ 
